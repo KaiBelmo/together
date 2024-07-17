@@ -74,7 +74,7 @@ function Room() {
         }
       }, 200);
     });
-  }, [socket, roomID]);
+  }, []);
 
   const opts = {
     height: "490",
